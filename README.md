@@ -1,5 +1,30 @@
 # EngBags
-EngBags - 2019 Baroque edit
+
+## Modifications by Sattva: <br>
+- **Fixed** **dropdown** conflict with Zygor 3.3.5 backport.<br>
+- **Added** button **"R"** - **Reset New Items**.<br>
+- **Auto-open** bag, when talking to banker.<br>
+- Enable **mouse wheel** in advanced configuration window.
+
+
+**Shaman bag screenshot**
+
+![img](https://imgur.com/zQmKP6A.jpg)
+
+**Rogue bag screenshot**
+
+![img](https://imgur.com/JzpVMVG.jpg)
+
+
+**FAQ**
+
+**Q:** I have a non-English WoW client. Why don't I get similar categorization results as in your screenshots/video?
+**A:** EngBags' categorization relies heavily on string search patterns, thus being localization dependent. It's the foundation of how the addon works. I could add localization handling for other languages, but I'd need input.
+
+**Q:** I've updated to a newer version, but item list categorization updates have no impact?
+**A:** After updating, delete your setting files: \WTF\Account\ACCOUNTNAME\SavedVariables\EngBags.lua and EngBags.lua.bak
+
+EngBags - 2019 [Baroque](https://github.com/Brqje) edit
 
 One-bag with item type auto-sort. I've modded it to use sensible categorization/auto sorting for both leveling and end-game TBC 2.4.3. It's modified for all the requirements of a serious TBC end-game raider, presenting inventory contents in a streamlined way.
 
@@ -26,20 +51,3 @@ The general idea is that similar consumables should be grouped. The same applies
 
 Within a group, subgroups are alphabetically sorted.
 Within a subgroup, items are also alphabetically sorted.
-
-**Shaman bag screenshot**
-
-![img](https://imgur.com/zQmKP6A.jpg)
-
-**Rogue bag screenshot**
-
-![img](https://imgur.com/JzpVMVG.jpg)
-
-
-**FAQ**
-
-**Q:** I have a non-English WoW client. Why don't I get similar categorization results as in your screenshots/video?
-**A:** EngBags' categorization relies heavily on string search patterns, thus being localization dependent. It's the foundation of how the addon works. I could add localization handling for other languages, but I'd need input.
-
-**Q:** I've updated to a newer version, but item list categorization updates have no impact?
-**A:** After updating, delete your setting files: \WTF\Account\ACCOUNTNAME\SavedVariables\EngBags.lua and EngBags.lua.bak
